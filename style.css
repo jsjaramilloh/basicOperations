@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    background: linear-gradient(to right top, rgb(13, 248, 52),rgb(250, 247, 78));
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.container{
+    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    justify-content:space-evenly;
+    text-align: center;
+
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    max-width: fit-content;
+    padding: 40px 40px;
+}
+
+.btn{
+    border-radius: 10px;
+    padding: 8px 16px;
+    background: linear-gradient(to right top, rgb(13, 248, 52),rgb(250, 247, 78));
+    font-weight: 1000;
+}
+.row{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.result{
+    font-weight:bold;
+    font-size: larger;
+}
+
+.answer{
+    background: whitesmoke;
+    border-color: black;
+    font-weight: 1000;
+    border-radius: 10px;
+}
+
+
+.result, .answer{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-justify: center;    
+    
+}
+
+.fv,.sv,.btn,.h3,.operation,.result, .answer, .operation{
+    padding: 10px 10px;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+.operation{
+    max-width:none;
+    background: linear-gradient(to right top, rgb(13, 248, 52),rgb(250, 247, 78));
+
+    border-radius: 8px;
+    font-weight: 700;
+}
+.h1{
+    color: whitesmoke;
+}
